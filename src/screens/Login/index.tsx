@@ -43,7 +43,7 @@ export default function Login() {
                         </View>
                         <View className="flex flex-col gap-5 pb-5">
                             <View>
-                                <Label iconeName="person" nameLabel="E-mail" />
+                                <Label iconeName="mail" nameLabel="E-mail" />
                                 <Input handleBlur={"email"} handleChange={"email"} />
                                 { errors.email && touched.email && (
                                     <Text className="">{errors.email}</Text>
@@ -56,7 +56,7 @@ export default function Login() {
                         </View>
                         <Text className="text-lg underline text-right color-c4 pb-11">Esqueceu a senha?</Text>
                         <View className="flex flex-col gap-5">
-                            <ButtonComp name="entrar" onPress={() => { handleSubmit()}} disabled={isSubmitting} />
+                            <ButtonComp name="Entrar" onPress={() => { handleSubmit()}} disabled={isSubmitting} />
                             <Text className="text-lg text-center color-c4">Não tem uma conta ainda? <Text className="underline">Cadastre-se</Text></Text>
                         </View>
                         {resultado == 'logado' && (
