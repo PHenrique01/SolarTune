@@ -26,7 +26,10 @@ export default function Register() {
                         <Label iconeName="key" nameLabel="Senha" />
                         <Input handleBlur={"senha"} handleChange={"senha"} />
                     </View>
-                    <ButtonComp name="Cadastrar-se"/>
+                    <View className="flex flex-col gap-5 pt-10">
+                        <ButtonComp name="Cadastrar-se"/>
+                        <Text className="text-lg text-center color-c4">Já possui um cadastro? <Text className="underline">Entrar na conta</Text></Text>
+                    </View>
                 </View>
             </View>
         </ImageBackground>

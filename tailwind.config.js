@@ -21,7 +21,8 @@ module.exports = {
           p: "#40E0D0",
         },
         backgroundImage: {
-          "phone": "url('../../images/bg-img.png')"
+          "phone": "url('../../images/bg-img.png')",
+          "gradient": "linear-gradient(to bottom, #000000 40%, #111111 100%)",
         }
       },
     },
